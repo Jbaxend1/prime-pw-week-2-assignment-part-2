@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The variable (name) is established and defined as 'Dane"
+// An if statement is used to test the condition if the variable name matches 'Mary'
+// Console log is used to display condition test, which is not true in this case.
+// Else statement is then tested since previous if statement was false
+// Resulting console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable secret is established
+// Variable 'code' is established with a value of 123
+// If statement is then used to test if the exact value of 'code' is '123'
+// This is true in which 'secret' is then established as 'super'
+// code is then ran as '123' x 2
+// Next the new value of code is then ran as a condition in which is checks if it is greater than 250
+// The value of code is less than 250 at this point
+// in which it doesn't change the variable 'secret' to 'duper'
+// console.log output results in 'super'
 
 //CODE
 /*
@@ -70,10 +76,24 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// isStudent Boolean variable established as being true
+// age number variable established as a value of 34
+// zip number variable established as 55407
 // 
-// 
-// 
-//
+// if statement compound conditional is ran to test is var isStudent is true
+// AND if var zip is greater than 8000
+// results in console output of 'You're a student on the West Coast!'
+
+// else if conditional isStudent is false OR age is less than 30 runs in the even that first condtional is false
+// If this new conditional is true it's console log results in 'What are your hobbies?'
+
+// In the event that both previous conditionals are false another else if is ran
+// Conditional isStudent equal to true is ran
+// If true it console logs 'Welcome to Prime'
+
+// An else statement is then used to end the chain as a default in the case where all
+// previous conditions are false it runs console output of 'How about the weather?'
+// In the case of this condtion the final console log is 'Welcome to Prime'.
 
 //CODE
 /*
@@ -130,6 +150,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// varaible colorOne and colorTwo are switched per the instructions. 
+//colorOne should be 'blue' and colorTwo should be 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -145,8 +167,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// const is a constant in which the value will never change.
+// The instructions explicitly say to start with 2 variables
 const time = 4;
 
+// The instructions want you to test if both are true
+// || implies it is testing as one OR the other being true
+// correct operator is && in which both must be true to console log
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,8 +185,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// minAge is listed as a constant rather than a variable
 const minAge = 21;
 
+// The conditional should read if(age >= minAge) per the instructions
 if(minAge <= age) {
   console.log('no entry');
 } else {
